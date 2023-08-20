@@ -4,3 +4,13 @@
   box-sizing: border-box;
   font-family: var(--roboto);
 }
+
+:root {
+  --blackMain: #090e16;
+  --blackLight: rgba(123, 74, 226, 0.05);
+  --title: hsla(0, 100%, 100%, 1) --text: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: var(--blackMain);
+}
