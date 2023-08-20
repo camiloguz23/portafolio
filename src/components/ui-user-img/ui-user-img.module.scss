@@ -1,0 +1,17 @@
+.circle {
+
+    position: relative;
+    background-color: var(--backgroundWhite);
+    border-radius: 50% 50% 30% 30%;
+    width: 411px;
+    height: 411px;
+
+    .user {
+      width: 411px;
+      height: 411px;
+      position: absolute;
+      top: -60px;
+      left: 0px;
+    }
+}
+

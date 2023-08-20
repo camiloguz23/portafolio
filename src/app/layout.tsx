@@ -1,6 +1,8 @@
+import { UiHeader } from '@/components';
 import './globals.scss';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
+import { StoreProvider } from '@/provider';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -21,7 +23,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
         <link rel='shortcut icon' href='/img/JR.svg' type='image/x-icon' />
         <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0' />
       </head>
-      <body>{children}</body>
+      <body>
+        <StoreProvider>
+          <UiHeader />
+          {children}
+        </StoreProvider>
+      </body>
     </html>
   );
 }

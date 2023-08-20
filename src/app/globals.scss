@@ -7,8 +7,11 @@
 
 :root {
   --blackMain: #090e16;
-  --blackLight: rgba(123, 74, 226, 0.05);
-  --title: hsla(0, 100%, 100%, 1) --text: rgba(255, 255, 255, 0.5);
+  --backgroundWhite:hsla(0, 100%, 100%, 0.7);
+  --blackLight: hsla(0,0%,18%,1);
+  --title: hsla(0, 100%, 100%, 1); 
+  --text: rgba(255, 255, 255, 0.50);
+  --textPurple: rgba(123, 74, 226, 0.50);
 }
 
 body {
