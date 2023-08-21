@@ -3,7 +3,7 @@
   align-items: center;
   gap: 20px;
 
-  @media (width <= 560px) {
+  @media (width <= 635px) {
     position: absolute;
     flex-direction: column;
     background-color: var(--blackLight);
@@ -15,13 +15,13 @@
   }
 
   &.open {
-    @media (width <= 560px) {
+    @media (width <= 635px) {
       display: flex;
     }
   }
 
   &.close {
-    @media (width <= 560px) {
+    @media (width <= 635px) {
       display: none;
     }
   }
@@ -30,7 +30,7 @@
     color: var(--text);
     text-decoration: none;
 
-    @media (width <= 560px) {
+    @media (width <= 635px) {
       font-size: 26px;
     }
   }

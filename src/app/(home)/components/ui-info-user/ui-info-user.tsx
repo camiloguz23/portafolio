@@ -14,7 +14,7 @@ export default function UiInfoUser(): JSX.Element {
       </div>
       <div className={`${style.card} ${style.simple}`}>
         <IconBriefcase size={60} color='rgba(123, 74, 226, 0.50)'/>
-        <p className={style.year}>2 {onTranslate('programmer')}</p>
+        <p className={style.year}>2 {onTranslate('job')}</p>
         <p className={style.details}>{onTranslate('work')}</p>
       </div>
     </div>

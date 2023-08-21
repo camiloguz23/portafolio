@@ -1,5 +1,5 @@
 'use client';
-import { UiNavbar } from '@/components';
+import { UiBtnLanguages, UiNavbar } from '@/components';
 import { useState } from 'react';
 import style from './ui-header.module.scss';
 import { useDevice } from '@/hooks';
@@ -19,6 +19,7 @@ function UiHeader(): JSX.Element {
 
       <div className={style.position}>
         <UiNavbar isOpen={openMenu} />
+        <UiBtnLanguages />
       </div>
     </header>
   );

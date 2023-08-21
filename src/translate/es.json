@@ -1,1 +1,14 @@
-{}
+{
+    "home":"Inicio",
+    "about":"Sobre mi",
+    "portfolio": "Portafolio",
+    "experience": "Experiencia",
+    "contact":"Contacto",
+    "greeting": "¡Slaudos!",
+    "download": "Descargar CV",
+    "whatsApp": "Escribeme",
+    "programmer": "años como",
+    "job": "años de",
+    "code":"Programador",
+    "work":"Trabajo"
+}

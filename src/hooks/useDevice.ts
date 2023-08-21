@@ -8,7 +8,7 @@ export const useDevice = (): useDeviceType => {
   const [isMobile, setIsMobile] = useState<boolean>(false);
 
   const checkoutDevice = (): void => {
-    setIsMobile(window.innerWidth <= 560);
+    setIsMobile(window.innerWidth <= 635);
   };
   useEffect(() => {
     window.addEventListener('resize', checkoutDevice);
