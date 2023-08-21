@@ -1,0 +1,15 @@
+.download {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--textPurple);
+  gap: 20px;
+
+  @media (hover: hover) {
+    &:hover {
+      color: var(--textWhite);
+    }
+  }
+}

@@ -1,17 +1,40 @@
-.circle {
 
-    position: relative;
-    background-color: var(--backgroundWhite);
-    border-radius: 50% 50% 30% 30%;
+.circle {
+  position: relative;
+  background-color: var(--backgroundWhite);
+  border-radius: 50% 50% 30% 30%;
+  width: 411px;
+  height: 411px;
+
+  .user {
     width: 411px;
     height: 411px;
+    position: absolute;
+    top: -60px;
+    left: 0px;
 
-    .user {
-      width: 411px;
-      height: 411px;
-      position: absolute;
-      top: -60px;
-      left: 0px;
+    @media (width <= 800px) {
+      width: 311px;
+      height: 311px;
+      top: -40px;
     }
-}
 
+    @media (width <= 600px) {
+      width: 190px;
+      height: 190px;
+      top: -20px;
+    }
+  }
+
+  @media (width <= 800px) {
+    order: 1;
+    width: 311px;
+    height: 311px;
+  }
+
+  @media (width <= 600px) {
+    order: 1;
+    width: 190px;
+    height: 190px;
+  }
+}

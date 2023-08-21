@@ -1,0 +1,38 @@
+.containerInfo {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+    width: 246px;
+    height: 200px;
+
+    p {
+      color: var(--textWhite);
+    }
+
+    &.simple {
+      border: 1px solid var(--textPurple);
+    }
+
+    .year {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .details {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+}

@@ -13,4 +13,23 @@
   justify-content: space-between;
   padding: 0 8px;
   z-index: 2;
+
+  @media (width <= 560px) {
+    justify-content: flex-start;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    left: auto;
+    right: 8px;
+
+  }
+
+  .position {
+
+    @media (width <= 560px) {
+      position: relative;
+      
+    }
+  }
+
 }

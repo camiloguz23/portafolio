@@ -1,8 +1,11 @@
 .containerGreeting {
   display: flex;
   flex-direction: column;
-  height: 411px;
   max-width: 22rem;
+  
+  @media (width <= 600px) {
+    align-items: center;
+  }
 
   span {
     color: var(--textPurple);
@@ -23,6 +26,10 @@
     font-size: 3.25rem;
     font-weight: 800;
     margin-top: 20px;
+
+    @media (width <= 600px) {
+      font-size: 1.7rem;
+    }
   }
 
   .rol {
@@ -39,5 +46,9 @@
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
+  }
+
+  @media (width <= 800px) {
+    order: 2;
   }
 }

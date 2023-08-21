@@ -1,0 +1,14 @@
+.sectionCv {
+  max-width: 411px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+
+  @media (width <= 800px) {
+    justify-content: center;
+    align-items: center;
+    order: 3;
+  }
+}

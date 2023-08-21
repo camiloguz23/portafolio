@@ -1,0 +1,39 @@
+.whatsApp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--textPurple);
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid var(--textPurple);
+  border-radius: 16px;
+  padding: 4px 12px;
+
+
+  @media (hover: hover) {
+    &:hover {
+      color: var(--textGreen);
+      border: 1px solid transparent;
+      animation: animationBorder 1s ease infinite;
+    }
+  }
+}
+
+@keyframes animationBorder {
+  0% {
+    border-top: 1px solid var(--textGreen);
+  }
+  25% {
+    border-right: 1px solid var(--textGreen);
+  }
+  50% {
+    border-bottom: 1px solid var(--textGreen);
+  }
+  75% {
+    border-left: 1px solid var(--textGreen);
+  }
+  100% {
+    border:1px solid transparent;
+  }
+}

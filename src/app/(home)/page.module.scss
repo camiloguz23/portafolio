@@ -1,7 +1,21 @@
 .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 224px;
+  flex-direction: column;
+
+
+  .avatar {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 234px;
-    gap: 70px;
+    gap: 180px;
+    flex-wrap: wrap;
+
+    @media (width <= 800px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
 }

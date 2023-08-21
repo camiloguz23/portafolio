@@ -3,9 +3,36 @@
   align-items: center;
   gap: 20px;
 
+  @media (width <= 560px) {
+    position: absolute;
+    flex-direction: column;
+    background-color: var(--blackLight);
+    padding: 10px;
+    border-radius: 10px;
+    gap: 30;
+    top: 40px;
+    left: -180px;
+  }
+
+  &.open {
+    @media (width <= 560px) {
+      display: flex;
+    }
+  }
+
+  &.close {
+    @media (width <= 560px) {
+      display: none;
+    }
+  }
+
   .link {
     color: var(--text);
     text-decoration: none;
+
+    @media (width <= 560px) {
+      font-size: 26px;
+    }
   }
 
   .active {
