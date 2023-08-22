@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const loadLanguage: string | null = localStorage.getItem('languages');
+const loadLanguage: string | null = typeof window !== 'undefined' ? localStorage.getItem('languages') : null;
 const languageDefault = loadLanguage ?? 'en';
 
 export const LanguagesSlice = createSlice({
