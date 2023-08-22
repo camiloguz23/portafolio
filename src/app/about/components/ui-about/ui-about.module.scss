@@ -1,9 +1,15 @@
+@import '../../../../style/size-responsive';
+
 .containerAbout {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 50px;
+
+    @include responsiveContent {
+        grid-template-columns : 1fr
+    }
 
     .item {
         display: flex;
