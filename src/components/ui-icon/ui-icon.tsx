@@ -6,14 +6,16 @@ interface Prop {
   icon: string;
   title?: string;
   color?: string;
-  size: number;
+  size?: number;
   code?: boolean;
+  clear?: boolean;
 }
-function UiIcon({ icon, color = 'rgba(123, 74, 226, 0.50)', size, code = false, title = '' }: Prop): JSX.Element {
+function UiIcon({ icon, color = 'rgba(123, 74, 226, 0.50)', size = 24, code = false, title = '', clear = false }: Prop): JSX.Element {
   const getIcon = (name: string, size: number, color: string, code: boolean): React.ReactElement => {
     const nameConstructor = code ? 'IconBrand' : 'Icon';
     const IconComponents = Icons[`${nameConstructor}${name}` as keyof typeof Icons];
-    return <IconComponents size={size} color={color} /> || <span></span>;
+    const propriety = clear ? {} : { size, color };
+    return <IconComponents {...propriety} /> || <span></span>;
   };
 
   return <>{title ? <Tooltip title={title}>{getIcon(icon, size, color, code)}</Tooltip> : <>{getIcon(icon, size, color, code)}</>}</>;

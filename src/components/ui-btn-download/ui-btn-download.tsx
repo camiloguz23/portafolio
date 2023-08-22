@@ -2,13 +2,14 @@
 import { CV } from '@/constants';
 import { useTranslate } from '@/hooks/useTranslate';
 import style from './ui-btn-download.module.scss';
-import { IconFileDownload } from '@tabler/icons-react';
+import { UiIcon } from '..';
+import { IconEnum } from '@/enum';
 
 function UiBtnDownload(): JSX.Element {
   const { lang, onTranslate } = useTranslate();
   return (
     <a href={CV[lang]} className={style.download} download>
-      {onTranslate('download')}  <IconFileDownload />
+      {onTranslate('download')} <UiIcon icon={IconEnum.download} clear={true} />
     </a>
   );
 }
