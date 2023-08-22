@@ -1,9 +1,11 @@
+@import '../../style/size-responsive';
+
 .navbar {
   display: flex;
   align-items: center;
   gap: 20px;
 
-  @media (width <= 635px) {
+  @include responsiveHeader {
     position: absolute;
     flex-direction: column;
     background-color: var(--blackLight);
@@ -15,13 +17,13 @@
   }
 
   &.open {
-    @media (width <= 635px) {
+    @include responsiveHeader {
       display: flex;
     }
   }
 
   &.close {
-    @media (width <= 635px) {
+    @include responsiveHeader {
       display: none;
     }
   }
@@ -30,7 +32,7 @@
     color: var(--text);
     text-decoration: none;
 
-    @media (width <= 635px) {
+    @include responsiveHeader {
       font-size: 26px;
     }
   }

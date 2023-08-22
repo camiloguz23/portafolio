@@ -1,3 +1,5 @@
+@import '../../../../style/size-responsive';
+
 .sectionCv {
   max-width: 411px;
   display: flex;
@@ -6,7 +8,7 @@
   justify-content: center;
   gap: 20px;
 
-  @media (width <= 800px) {
+  @include responsiveContent {
     justify-content: center;
     align-items: center;
     order: 3;

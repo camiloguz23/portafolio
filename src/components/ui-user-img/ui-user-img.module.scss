@@ -1,3 +1,4 @@
+@import '../../style/size-responsive';
 
 .circle {
   position: relative;
@@ -13,26 +14,26 @@
     top: -60px;
     left: 0px;
 
-    @media (width <= 800px) {
+    @include responsiveContent {
       width: 311px;
       height: 311px;
       top: -40px;
     }
 
-    @media (width <= 600px) {
+    @include responsiveMobile {
       width: 190px;
       height: 190px;
       top: -20px;
     }
   }
 
-  @media (width <= 800px) {
+  @include responsiveContent {
     order: 1;
     width: 311px;
     height: 311px;
   }
 
-  @media (width <= 600px) {
+  @include responsiveMobile {
     order: 1;
     width: 190px;
     height: 190px;

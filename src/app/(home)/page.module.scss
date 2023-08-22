@@ -1,10 +1,10 @@
+@import '../../style/size-responsive';
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 224px;
   flex-direction: column;
-
 
   .avatar {
     display: flex;
@@ -13,7 +13,7 @@
     gap: 180px;
     flex-wrap: wrap;
 
-    @media (width <= 800px) {
+    @include responsiveContent {
       flex-direction: column;
       gap: 30px;
     }
