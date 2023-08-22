@@ -15,3 +15,9 @@
         @content;
     }
 }
+
+@mixin responsiveSmallMobile {
+    @media (width <= 407px) {
+        @content;
+    }
+}

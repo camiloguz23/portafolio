@@ -1,0 +1,68 @@
+@import '../../../../style/size-responsive';
+
+.titlePortfolio {
+  color: var(--title);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.card {
+  border-radius: 16px;
+  border: 1px solid var(--textPurple);
+  width: 400px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+
+  @include responsiveSmallMobile {
+    width: 300px;
+  }
+
+  .titleCard {
+    color: var(--textWhite);
+    width: 100%;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .descriptionCard {
+    color: var(--text);
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .links,
+  .code {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .code {
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    span {
+      background-color: rgba(123, 74, 226, 0.1);
+      color: var(--textPurple);
+      border-radius: 8px;
+      font-weight: 700;
+      padding: 4px 14px;
+    }
+  }
+
+  .img {
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
+    @include responsiveSmallMobile {
+        width: 280px;
+      }
+  }
+}

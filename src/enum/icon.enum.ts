@@ -16,5 +16,6 @@ export enum IconEnum {
   linkedin = 'Linkedin',
   github = 'GithubFilled',
   whatsApp = 'Whatsapp',
-  download = 'FileDownload'
+  download = 'FileDownload',
+  browser = 'Browser'
 }
