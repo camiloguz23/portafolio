@@ -19,5 +19,12 @@
     "complement": "I love staying up-to-date with the latest trends in web development and technology. I am committed to continuously learning and improving my skills to deliver exceptional solutions to technical challenges. I believe that collaboration and effective communication are crucial for success in any project.",
     "technology":"Technologies and Skills",
     "titlePortfolio": "Jobs and Projects",
-    "descriptionChatGPT" :"This project is make in Next JS and typescript and use the Open AI api for we could send the questions and AI answer our questions"
+    "descriptionChatGPT" :"This project is make in Next JS and typescript and use the Open AI api for we could send the questions and AI answer our questions",
+    "titleExperience": "Work history",
+    "yearsJob": "years and",
+    "month": "month",
+    "year":"years",
+    "descriptionSK" :"As a Frontend engineer with outstanding skills, I provided expert guidance on the leading frameworks (Angular, React, Next.js) for scalable and maintainable projects at that company. Leveraging current best practices, I delivered innovative, high-quality solutions that drove the company's success. My collaboration contributed to increased productivity and code quality",
+    "descriptionDev": "During my time as a web application developer at Devsavant, I had the opportunity to create custom solutions using React, Angular, and Node.js. My primary focus was on applying best programming practices to deliver scalable, efficient, and high-quality applications. These solutions significantly contributed to enhancing the company's online presence and profitability.",
+    "descriptionGlobant": "During my internship at Globant, I gained experience in frontend development, as well as proficiency in MySQL, MongoDB, and network analysis tools like PyShark and Python. I applied this knowledge directly to company projects. My passion for learning and innovation drove me to deliver high-quality solutions."
 }

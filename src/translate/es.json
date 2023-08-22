@@ -19,6 +19,13 @@
     "complement": "Me encanta estar al tanto de las últimas tendencias en desarrollo web y tecnología. Estoy comprometido a aprender y mejorar constantemente mis habilidades para ofrecer soluciones excepcionales a los desafíos técnicos. Creo que la colaboración y la comunicación efectiva son fundamentales para el éxito en cualquier proyecto.",
     "technology":"Tecnologias e habilidades",
     "titlePortfolio": "Trabajos y Projectos",
-    "descriptionChatGPT" :"Este proyecto está hecho en Next JS y TypeScript y utiliza la API de Open AI para que podamos enviar las preguntas y la IA responda nuestras preguntas"
+    "descriptionChatGPT" :"Este proyecto está hecho en Next JS y TypeScript y utiliza la API de Open AI para que podamos enviar las preguntas y la IA responda nuestras preguntas",
+    "titleExperience": "Trayectoria en el trabajo",
+    "yearsJob": "años y",
+    "month": "meses",
+    "year":"años",
+    "descriptionSK" :"Como ingeniero Frontend con habilidades destacadas, proporcioné orientación experta en los frameworks principales (Angular, React, Next.js) para proyectos escalables y mantenibles en esa empresa. Aprovechando las mejores prácticas vigentes, entregué soluciones innovadoras y de alta calidad que impulsaron el éxito de la compañía. Mi colaboración contribuyó a aumentar la productividad y la calidad del código.",
+    "descriptionDev": "Durante mi tiempo como desarrollador de aplicaciones web en Devsavant, tuve la oportunidad de crear soluciones personalizadas utilizando React, Angular y Node.js. Mi enfoque principal estaba en aplicar las mejores prácticas de programación para entregar aplicaciones escalables, eficientes y de alta calidad. Estas soluciones contribuyeron significativamente a mejorar la presencia en línea y la rentabilidad de la empresa",
+    "descriptionGlobant": "Durante mi pasantía en Globant, adquirí experiencia en el desarrollo frontend, así como en el manejo de MySQL, MongoDB y herramientas de análisis de redes como PyShark y Python, aplicando estos conocimientos directamente en proyectos de la empresa. Mi pasión por el aprendizaje y la innovación me llevó a entregar soluciones de alta calidad"
 
 }

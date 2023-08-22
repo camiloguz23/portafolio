@@ -16,9 +16,9 @@ export const ROUTES: Route[] = [
   {
     name: 'experience',
     path: 'experience'
-  },
-  {
-    name: 'contact',
-    path: 'contact'
   }
+  // {
+  //   name: 'contact',
+  //   path: 'contact'
+  // }
 ];
