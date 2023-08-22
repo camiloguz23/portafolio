@@ -10,5 +10,11 @@
     "programmer": "years like",
     "job": "years of",
     "code":"programmer",
-    "work":"work"
+    "work":"work",
+    "hello": "Hello, I am Jeyson Camilo 👨🏽‍💻!",
+    "description": "I'm a passionate Front-end Engineer Developer with experience in the React ecosystem. My primary focus is on creating intuitive and captivating user interfaces that seamlessly blend functionality and design.",
+    "Ido": "What I Do",
+    "frontend": "My expertise lies in front-end development, including building interactive components, managing application state, and optimizing performance in React-based projects. I use the latest practices and tools to ensure applications are efficient and scalable.",
+    "backend" : "While my primary focus is on front-end development, I also possess basic knowledge in backend development using Python. This allows me to collaborate effectively with full development teams and grasp the bigger picture of a project.",
+    "complement": "I love staying up-to-date with the latest trends in web development and technology. I am committed to continuously learning and improving my skills to deliver exceptional solutions to technical challenges. I believe that collaboration and effective communication are crucial for success in any project."
 }

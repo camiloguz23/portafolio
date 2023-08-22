@@ -1,0 +1,40 @@
+.containerAbout {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+
+        &.avatar {
+            align-items: center;
+        }
+
+        .greeting {
+            color: var(--title);
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .info {
+            color: var(--text);
+            font-size: 20px;
+        }
+
+        .title {
+            color: var(--title);
+        }
+
+        li {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: var(--text);
+            margin-left: 60px;
+        }
+    }
+}
