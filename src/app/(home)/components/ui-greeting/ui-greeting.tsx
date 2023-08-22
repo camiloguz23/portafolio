@@ -15,7 +15,7 @@ function UiGreeting(): JSX.Element {
       <p className={style.rol}>Front-end Engineer Developer</p>
       <div className={style.link}>
         {LINK_PROFILE.map((item) => (
-          <UiLinkIcon key={item.path} icon={item.name} path={item.path} />
+          <UiLinkIcon key={item.path} icon={item.icon} path={item.path} size={50} haveBrand={true} title={item.name}/>
         ))}
       </div>
     </div>

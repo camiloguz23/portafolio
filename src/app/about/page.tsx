@@ -1,10 +1,11 @@
 import { MainLayout } from '@/layout';
-import { UiAbout } from './components';
+import { UiAbout, UiSkill } from './components';
 
 function About(): JSX.Element {
   return (
     <MainLayout>
       <UiAbout />
+      <UiSkill />
     </MainLayout>
   );
 }

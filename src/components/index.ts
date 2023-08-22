@@ -5,3 +5,4 @@ export { default as UiLinkIcon } from './ui-link-icon/ui-link-icon';
 export { default as UiBtnDownload } from './ui-btn-download/ui-btn-download';
 export { default as UiBtnWhatsAap } from './ui-btn-whatsapp/ui-btn-whatsapp';
 export { default as UiBtnLanguages } from './ui-btn-languages/ui-btn-languages';
+export { default as UiIcon } from './ui-icon/ui-icon';

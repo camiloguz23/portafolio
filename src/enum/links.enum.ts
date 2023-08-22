@@ -1,4 +1,4 @@
 export enum Links {
-  linkedin = 'linkedin',
-  github = 'github'
+  linkedin = 'Linkedin',
+  github = 'Github'
 }

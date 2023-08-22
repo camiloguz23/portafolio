@@ -1,8 +1,9 @@
 'use client';
 
 import { useTranslate } from '@/hooks';
-import { IconLanguage } from '@tabler/icons-react';
 import style from './ui-btn-languages.module.scss';
+import { UiIcon } from '..';
+import { IconEnum } from '@/enum';
 
 function UiBtnLanguages(): JSX.Element {
   const { onSetLanguage, lang } = useTranslate();
@@ -14,7 +15,7 @@ function UiBtnLanguages(): JSX.Element {
   };
   return (
     <button className={style.btnLang} type='button' onClick={setLanguages}>
-      {lang} <IconLanguage size={22} color='white' />
+      {lang} <UiIcon size={22} color='white' icon={IconEnum.translate}/>
     </button>
   );
 }
