@@ -13,7 +13,22 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: 'Jeyson Guzman',
-  description: 'portafolio'
+  description: 'portafolio',
+  openGraph: {
+    title: 'Jeyson Guzmán | Desarrollador Frontend',
+    description: 'Desarrollador Frontend con experiencia en React, Angular y aprendiendo sobre Next JS, enfocado en la calidad del código y dedicado al aprendizaje continuo.',
+    url: 'https://jeyson-guzman.vercel.app/',
+    siteName: 'Jeyson Guzmán',
+    images: [
+      {
+        url: 'https://jeyson-guzman.vercel.app/images/og.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'es_ES',
+    type: 'website',
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
