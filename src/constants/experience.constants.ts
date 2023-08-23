@@ -3,7 +3,7 @@ export const EXPERIENCE = [
     name: 'Supremacy Kingdom',
     rol: 'Team Leader Fontend',
     description: 'descriptionSK',
-    timeDate: '03/20/2023 - currently',
+    timeDate: '03/20/2023 - 08/23/2023',
     time: ['7', 'month']
   },
   {
