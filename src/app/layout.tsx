@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Jeyson Guzmán',
     images: [
       {
-        url: 'https://jeyson-guzman.vercel.app/images/jeyson.png',
+        url: 'https://www.jeysonguzman.online/images/jeyson.png',
         width: 1200,
         height: 630
       }
