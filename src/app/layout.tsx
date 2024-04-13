@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Jeyson Guzmán | Desarrollador Frontend',
     description:
       'Desarrollador Frontend con experiencia en React, Angular y aprendiendo sobre Next JS, enfocado en la calidad del código y dedicado al aprendizaje continuo.',
-    url: 'https://jeyson-guzman.vercel.app/',
+    url: 'https://www.jeysonguzman.online/',
     siteName: 'Jeyson Guzmán',
     images: [
       {
